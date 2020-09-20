@@ -1,0 +1,19 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  background-color: #cfd8dc;
+  height: 5vh;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.nav__btn {
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+.nav__btn.nav__btn2 {
+  margin-left: 30px;
+}

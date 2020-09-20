@@ -21,7 +21,7 @@ function Movie(props) {
     getMovie();
   }, []);
   return (
-    <div>
+    <section className="container">
       {isLoading ? (
         <div className="loader">
           <span className="loader__text">Loading...</span>
@@ -55,7 +55,7 @@ function Movie(props) {
           <Link to={{ pathname: `/movies` }}>리스트로 돌아가기</Link>
         </>
       )}
-    </div>
+    </section>
   );
 }
 

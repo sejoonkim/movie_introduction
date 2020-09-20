@@ -2,7 +2,7 @@ import React from "react";
 
 function Home() {
   return (
-    <div>
+    <div className="home">
       <h1>사용된 라이브러리 및 프레임 워크</h1>
       <ul>
         <li>@testing-library/jest-dom: ^4.2.4</li>
