@@ -1,4 +1,4 @@
-.movies .movie {
+.movie {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -16,21 +16,27 @@
     0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
 }
 
-.movies .movie__top {
+.movie__top {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
 }
 
-.movies .movie a {
+.movie a {
   display: flex;
   justify-content: flex-end;
 }
 
-.movie img {
-  /* position: relative;
-  top: -50px; */
+.movie__small-image {
   max-width: 150px;
+  width: 100%;
+  margin-right: 30px;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+
+.movie__large-image {
+  max-width: 250px;
   width: 100%;
   margin-right: 30px;
   box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),

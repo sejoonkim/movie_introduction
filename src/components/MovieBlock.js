@@ -2,10 +2,15 @@ import React from "react";
 import "./MovieBlock.css";
 import { Link } from "react-router-dom";
 
-function Movie({ id, year, title, summary, poster, genres, rating }) {
+function Movie({ id, title, summary, poster, rating }) {
   return (
     <div className="movie">
-      <img src={poster} alt={title} title={title} />
+      <img
+        className="movie__small-image"
+        src={poster}
+        alt={title}
+        title={title}
+      />
       <div className="movie__data">
         <div className="movie__top">
           <h3 className="movie__title">{title}</h3>
@@ -18,11 +23,7 @@ function Movie({ id, year, title, summary, poster, genres, rating }) {
           to={{
             pathname: `/movie/${id}`,
             state: {
-              year,
-              title,
-              summary,
-              poster,
-              genres,
+              id,
             },
           }}
         >
