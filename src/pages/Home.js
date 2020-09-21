@@ -12,6 +12,9 @@ function Home() {
         <li>react-dom: ^16.13.1</li>
         <li>react-router-dom: ^5.2.0</li>
         <li>react-scripts: 3.4.3</li>
+        <li>axios: ^0.20.0</li>
+        <li>lodash: ^4.17.20</li>
+        <li>styled-components: ^5.2.0</li>
       </ul>
     </div>
   );
